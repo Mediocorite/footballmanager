@@ -1,0 +1,13 @@
+.wrapper {
+  background-color: #415A77;
+  border: 5px solid white;
+  border-radius: 25px;
+  padding: 1rem;
+
+  aside{
+    float: left;
+    img {
+      max-width: 100px;
+    }
+  }
+}

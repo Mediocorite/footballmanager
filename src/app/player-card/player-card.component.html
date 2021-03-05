@@ -1,0 +1,11 @@
+<div class="wrapper">
+  <aside>
+    <img [src]="this.imageURL" >
+  </aside>
+  <article>
+    <h1>{{ this.playerInfo.PFName }}</h1>
+    <p>{{ this.playerInfo.SkillDesc }}</p>
+    <h4>VALUE: $ {{ this.playerInfo.Value }} Million </h4>
+    <p>Upcoming Match: {{ this.playerInfo.UpComingMatchesList[0].CCode }} vs {{ this.playerInfo.UpComingMatchesList[0].VsCCode }} at {{ this.playerInfo.UpComingMatchesList[0].MDate | date:'short':'GMT+05:30' }}</p>
+  </article>
+</div>

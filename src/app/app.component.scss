@@ -1,0 +1,31 @@
+.container {
+  // Basic Settings for the container
+  background-color: #0D1B2A;
+  padding: 1rem;
+  // Grid Settings
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+}
+input{
+  border:none;
+  margin-left: 20px;
+  border-radius: 50px;
+  width: 100%;
+}
+input:focus{
+  outline: none!important;
+}
+input::placeholder{
+  font-family: Avenir;
+}
+.input-wrap{
+  display: inline-flex;
+  position: relative;
+  border-radius: 50px;
+  border: 1px solid #2ECF9A;
+  padding: 5px 2px 3px 6px;
+  box-shadow: inset 0px 0px 2px 0px #2ECF9A;
+  width: 80%;
+  margin-bottom: 30px;
+}
